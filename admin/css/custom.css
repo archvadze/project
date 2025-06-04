@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'MyCap';
+	src: url('');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyLow';
+	src: url('');
+	font-weight: normal;
+	font-style: normal;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-size: 97%;
+}
+body, body#LoginForm {
+	background: #000;
+}
+.badge {
+	float: right;
+}
+.login-form .form-control {
+	background: #f7f7f7 none repeat scroll 0 0;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+}
+.main-div {
+	background: #ffffff none repeat scroll 0 0;
+	border-radius: 2px;
+	margin: 150px auto 30px;
+	max-width: 38%;
+	padding: 50px 70px 70px 71px;
+}
+.login-form .form-group {
+	margin-bottom: 10px;
+}
+.login-form {
+	text-align: center;
+}
+.login-form .btn.btn-primary {
+	background: #f0ad4e none repeat scroll 0 0;
+	border-color: #f0ad4e;
+	color: #ffffff;
+	font-size: 14px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding: 0;
+}
+.botto-text {
+	color: #ffffff;
+	font-size: 14px;
+	margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+	background: #ff9900 none repeat scroll 0 0;
+}
+.list-group-item:last-child, .list-group-item:first-child, .list-group.panel > .list-group-item {
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.indent a {
+	margin-left: 20px;
+}
+.avatar {
+	width: 100px;
+	overflow: hidden;
+}
+.avatar img {
+	height: 50px;
+}
+.editors a {
+	display: inline;
+}
+.card-body {
+	padding: 0;
+}
+.pForm > .form-group > .col-sm-4 {
+	float: left;
+}
+.bg-light {
+	margin-bottom: 20px;
+}
+.list-group-item {
+	padding: 0.5rem 0.75rem;
+}
+.list-group-item .list-group li {
+	border: none;
+	font-size: inherit;
+	padding-left: 30px;
+	padding-right: 0;
+	content: "";
+}
+.form-group td img {
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	float: left;
+}
+.card-footer {
+	margin-bottom: 20px;
+}
+.badge {
+	font-size: 92%;
+}
+.badge .fa-pencil {
+	margin-right: 10px;
+}
+.cTab li {
+	margin: 0 0 10px 10px;
+}
+.tab-content {
+	background: none;
+	overflow: hidden;
+}
+.my_gallery li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.delete {
+	padding: 2px 6px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	color:#c00;
+	border:1px solid #c00;
+}
+.float-right .radio {
+	display: inline-block;
+	margin: 10px;
+}
