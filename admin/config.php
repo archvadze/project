@@ -15,9 +15,9 @@ $pages = select_data($type,$view);
 
 function db_connect(){
 	$dbHost = 'localhost';
-	$dbUser = 'proeqti_mas23';
-	$dbPass = 'GGvB9MP=yf~P';
-	$dbName = 'proeqti_mas23';
+	$dbUser = '';
+	$dbPass = '';
+	$dbName = '';
 	$connection = mysql_connect($dbHost,$dbUser,$dbPass);
 	if(!$connection) die('მონაცემთა ბაზის სერვერსთან კავშირი ვერ ხერხდება გთხოვთ განაახლოთ გვერდი.');
 	mysql_query('SET CHARACTER SET utf8');
